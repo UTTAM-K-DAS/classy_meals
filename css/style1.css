@@ -1,0 +1,55 @@
+/* style.css */
+
+/* Restaurants container styles */
+.restaurants-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  /* Individual restaurant styles */
+  .restaurant {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(208, 47, 47, 0.1);
+  }
+  
+  .restaurant img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .restaurant h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .restaurant p {
+    margin-bottom: 10px;
+  }
+  
+  .reservation-btn,
+  .menu-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .reservation-btn {
+    background-color: #ff6600;
+  }
+  
+  .menu-btn {
+    background-color: #007bff;
+  }
+  
